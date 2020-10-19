@@ -1,0 +1,36 @@
+.header_container {
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 1rem 3rem;   
+    z-index: 100;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  .header_container span {
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+  }
+
+  .header_container ul {
+    display: flex;
+    flex-direction: row;
+    margin: auto 0rem;
+  }
+
+  .header_container ul li {
+    list-style-type: none;
+    padding-left: 1rem;
+  }
+
+  @media(max-width: 900px){
+    .header_container span {
+        font-size: 1rem;
+      }
+  }
