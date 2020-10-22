@@ -1,17 +1,18 @@
-import React, { useState, useEffect } from "react";
-import LazyHero from 'react-lazy-hero';
+import React from "react";
 import './App.css';
 
 // components
 import Navbar from './components/Navbar'
 import Hero from './components/Hero'
+import Work from './components/Work'
 //React scroll-into-view
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-      <Hero/> 
+      <Navbar/> 
+      <Hero/>
+      <Work/>
     </div>
   );
 }

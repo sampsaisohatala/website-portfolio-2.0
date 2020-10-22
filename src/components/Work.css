@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.work{
+    background-color: rgba(0, 0, 0, 0.158);
+    min-height: 80vh;
+    margin-top: 10rem;
+    padding: 5rem;
+}

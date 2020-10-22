@@ -5,24 +5,9 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  height: 2000px;
+  height: 6000px;
   margin-left: 3rem;
   margin-right: 3rem;
-}
-.hero{
-  margin-bottom: 30rem;
-}
-
-.hero-heading {
-  /*
- background-color: rgba(255, 255, 255, 0.5);
- padding: .3rem 1.5rem;
- border-radius: .5rem;
- */
-}
-.hero-heading h1{
-  color: black;
-
 }
 
 @media(max-width: 900px){

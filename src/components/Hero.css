@@ -1,5 +1,9 @@
-.hero{
-    margin-bottom: 30rem;
+*{
+    padding: 0;
+    margin: 0;
+} 
+.hero-container{
+    height: 100vh;
 }
 .hero-heading {
 /*
@@ -12,3 +16,19 @@ border-radius: .5rem;
 color: black;
 
 }
+.tilted-padding{
+    background-color: red;
+    height: 5rem;
+    margin-top: 0;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+}
+
+.hero-image__figure img {
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+  }
+  .promo {
+    -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
+  }
