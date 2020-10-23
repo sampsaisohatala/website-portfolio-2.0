@@ -3,8 +3,25 @@
     padding: 0;
 }
 .work{
-    background-color: rgba(0, 0, 0, 0.158);
-    min-height: 80vh;
     margin-top: 10rem;
-    padding: 5rem;
+}
+.heading{
+    font-size: 2rem;
+}
+
+
+.work-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+}
+.work-items{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.24);
+    border: 1px solid black;
+}
+.work-items img {
+    height: 100%;
+    width: 100%;
 }
