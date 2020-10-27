@@ -1,34 +1,50 @@
 *{
     padding: 0;
     margin: 0;
-} 
-.hero-container{
-    height: 100vh;
+    box-sizing: border-box;
 }
-.hero-heading {
-/*
-background-color: rgba(255, 255, 255, 0.5);
-padding: .3rem 1.5rem;
-border-radius: .5rem;
-*/
+.hero{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90deg, #082452, #304c79);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.hero-heading h1{
-color: black;
-
+.particles{
+  height: 100vh;
+  width: 100vw;
 }
-.tilted-padding{
-    background-color: red;
-    height: 5rem;
-    margin-top: 0;
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
+.hero div{
+  position: absolute;
+  margin: auto;
+  color: white
 }
-
-.hero-image__figure img {
-    -webkit-clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-    clip-path: polygon(0 0, 100% 0, 100% 96%, 0 100%);
-  }
-  .promo {
-    -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
-    clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%);
-  }
+.hero h1{
+  font-size: 2.5rem;
+  line-height: .7rem;
+  cursor: default;
+  user-select: none;
+}
+.hero button{
+  background: none;
+  color: white;
+  border: 1px solid white;
+  font-size: 1.4rem;
+  padding: .5rem 2rem;
+  margin-top: 2rem;
+  transition: 0.5s all ease;
+}
+.hero button:hover{
+  background-color: #00EAFF;
+  transition: 0.5s all ease;
+}
+.hero button i {
+  margin-left: 1rem;
+  transition: 0.5s all ease;
+  transform: rotateZ(0deg);
+}
+.hero button:hover i{
+  transition: 0.5s all ease;
+  transform: rotateZ(90deg);
+}

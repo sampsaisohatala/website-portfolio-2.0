@@ -1,54 +1,54 @@
-import React, { useState, useEffect }  from "react";
-import LazyHero from 'react-lazy-hero';
+import React from "react";
 import './Hero.css';
-import background from '../images/bg-space.jpg'
 
+import Particles from 'react-particles-js';
+/*
+import background from '../images/bg-space.jpg'
 import Zoom from 'react-reveal/Zoom';
+import LazyHero from 'react-lazy-hero';
+*/
+
+const paramsDesktop = {
+  "particles": {
+    "links": {
+      color: "#ffffff",
+      distance: 170,
+      enable: true,
+      opacity: 0.5,
+      width: 1,
+    },
+    "number": {
+      "value": 200
+    },
+    "size": {
+      "value": 1.5
+    }
+  },
+  "interactivity": {
+    "events": {
+      "onhover": {
+        "enable": true,
+        "mode": "repulse"
+      }
+    }
+  }
+}
 
 function Hero() {
-  
-    const height = useWindowSize();
+  return (
+    <div className="hero">
+      <Particles className="particles" params={paramsDesktop}/>
+      <div>
+        <h1>Hello! I´m <span style={{color: "#FF7340"}}>Sampsa Isohätälä</span><hr/> Web and game developer.</h1>
+        <button>
+          View my work
+          <i className="fas fa-arrow-right"></i>
+        </button>
+      </div>
 
-    return (
-      <div className="hero-container">
-          <LazyHero 
-          className="hero"
-          imageSrc="https://unsplash.it/2000/1000"
-          //imageSrc={background}
-          minHeight= {`${height - 48}px`}
-          opacity={0.3}
-          color="#fff"     
-          parallaxOffset={200}  
-          >
-          <Zoom className="hero-heading">
-              <h1>Generic Startup Hype Headline</h1>
-          </Zoom>         
-          </LazyHero>   
-        </div>
-    );
-  }
-  
-  /*
-              <div className="tilted-padding">
-                <h1>tests</h1>
-            </div>
-  
-  */
-  export default Hero;
+    </div>
+  );
+}
 
-  function useWindowSize() {
-    const [windowHeight, setWindowHeight] = useState("");
-  
-    useEffect(() => {
-      function handleResize() {
-        setWindowHeight(window.innerHeight);
-      }
-      
-      window.addEventListener("resize", handleResize);
-      handleResize();
-      
-      return () => window.removeEventListener("resize", handleResize);
-    }, []);
-  
-    return windowHeight;
-  }
+export default Hero;
+

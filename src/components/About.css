@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-margin{
+    margin-top: 80px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about h1{
+    margin-top: 100px;
+    font-size: 2.5rem;
+}
+.about-sections{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+}
+.about-sections  div{
+    /*border: 1px solid black;*/
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 2rem;
+    /*height: 500px;*/
+}
+.about-sections  div h3{
+    font-size: 2rem;
+}
+.introduction{
+    
+}
+.introduction img{
+    width: 50%;
+    margin: 2rem 0;
+    box-shadow: 3px 6px #0000003d;
+}
+.skills{
+
+}
+.skills ul{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-items: center;
+    align-content: space-around;
+}
+.skills ul li{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    list-style: none;
+    background-color: #082452;
+    margin: 1rem auto;
+    padding: .5rem 0;
+    color: white;
+    font-size: 1rem;
+    transition: 0.5s ease;
+    box-shadow: 3px 6px #0000003d;
+    width: 80%;
+    height: 3rem;
+}
+.skills ul li:hover{
+    font-size: 1.3rem;
+    width: 90%;
+    transform: translateZ(300px);
+}
+.skills ul li span{
+    margin: auto;
+    width: 100%;
+}
+
+@media screen and (max-width: 960px){
+    .top-margin{
+        margin-top: 0;
+    }
+}

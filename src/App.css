@@ -1,13 +1,14 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 .App {
   font-family: sans-serif;
   text-align: center;
   height: 6000px;
-  margin-left: 3rem;
-  margin-right: 3rem;
+ /* margin-left: 3rem;
+  margin-right: 3rem;*/
 }
 
 @media(max-width: 960px){
@@ -15,3 +16,13 @@
     /*margin: 0;*/
   }
 }
+
+/*  COLORS
+
+#145BCC BLUE
+#3D6099 DARKED BLUE
+#00EAFF CYAN
+#FF7340 ORANGE
+#CC2A14 RED
+
+*/

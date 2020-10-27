@@ -10,14 +10,14 @@ function Work() {
   return (
     
     <div className="work">
-      <Fade top big>
+      <Fade right big>
         <h2 className="heading">Work</h2>
       </Fade>
       <div className="work-container">
         {WorkItems.map((item, index) => {
               return(
                 <Fade bottom big>
-                  <WorkCard key={index} title={item.title} description={item.description}/>
+                  <WorkCard key={index} title={item.title} url={item.url} description={item.description}/>
                 </Fade>
               )
             })}
