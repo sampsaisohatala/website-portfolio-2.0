@@ -34,13 +34,13 @@ const paramsDesktop = {
   }
 }
 
-function Hero() {
+function Hero(props) {
   return (
     <div className="hero">
       <Particles className="particles" params={paramsDesktop}/>
       <div>
-        <h1>Hello! I´m <span style={{color: "#FF7340"}}>Sampsa Isohätälä</span><hr/> Web and game developer.</h1>
-        <button>
+        <h1>Hello! I´m <span style={{color: "#d63200"}}>Sampsa Isohätälä</span><br/> Web and game developer.</h1>
+        <button onClick={props.scrollToAbout}>
           View my work
           <i className="fas fa-arrow-right"></i>
         </button>

@@ -11,10 +11,13 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: calc(100vh - 80px);
+    background: var(--color3);
 }
 .about h1{
     margin-top: 100px;
     font-size: 2.5rem;
+    color: var(--color1);
 }
 .about-sections{
     display: flex;
@@ -33,17 +36,17 @@
 }
 .about-sections  div h3{
     font-size: 2rem;
+    color: var(--color1);
 }
-.introduction{
-    
+
+.about-sections  div p{
+    font-size: 1.2rem;
+    color: var(--color1);
+    margin-top: 1rem;
 }
 .introduction img{
-    width: 50%;
+    width: 70%;
     margin: 2rem 0;
-    box-shadow: 3px 6px #0000003d;
-}
-.skills{
-
 }
 .skills ul{
     display: flex;
@@ -57,18 +60,19 @@
     align-content: center;
     justify-content: center;
     list-style: none;
-    background-color: #082452;
-    margin: 1rem auto;
+    background-color: var(--color4);
+    border-radius: 5px;
+    margin: .7rem auto;
     padding: .5rem 0;
-    color: white;
-    font-size: 1rem;
+    color: var(--color3);
+    font-size: 1.2rem;
     transition: 0.5s ease;
-    box-shadow: 3px 6px #0000003d;
     width: 80%;
     height: 3rem;
 }
+
 .skills ul li:hover{
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     width: 90%;
     transform: translateZ(300px);
 }

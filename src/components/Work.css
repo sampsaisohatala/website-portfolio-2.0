@@ -6,18 +6,21 @@
     display: flex;
     flex-direction: column;
     align-content: center;
-    background-color: rgba(0, 0, 0, 0.158);
+    justify-content: flex-start;
+    background-color: var(--color4);
+    padding: 10rem 0;
+    min-height: calc(100vh - 80px);
 }
 .heading{
     font-size: 2.5rem;
-    margin-top: 100px;
+    color: var(--color1);
 }
 .work-container{
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 80vw;
-    padding: 2rem 0;
+
 }
 .work-items{
     display: flex;

@@ -1,3 +1,12 @@
+:root {
+  
+  --color1: #131322;
+  /*--color2: #491111;*/
+  --color2: #250808;
+  --color3: #F2F4F3;
+  --color4: #d63200;
+  --color5: #08080a;
+}
 *{
   padding: 0;
   margin: 0;
@@ -6,7 +15,6 @@
 .App {
   font-family: sans-serif;
   text-align: center;
-  height: 6000px;
  /* margin-left: 3rem;
   margin-right: 3rem;*/
 }

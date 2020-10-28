@@ -1,31 +1,30 @@
 .navbar-items{
-  /*position: fixed;
-  top: 0;
-  left: 0;*/
   width: 100%;
   z-index: 100;
-
   padding: 1rem 3rem;  
-
-  background: white;
+  background: none;
   height: 80px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: 0.5s ease;
+  background: var(--color5);
+  border-bottom: 3px solid var(--color4);
 }
 .navbar-items.sticky{
   transition: 0.5s ease;
   position: fixed;
   top: 0;
   left: 0;
-  background: #2c456e;
+  /*background: var(--color3);
+  border-bottom: 1px solid var(--color1);*/
 }
 
 .navbar-logo{
   justify-self: start;
   cursor: pointer;
   font-size: 1.5rem;
+  color: var(--color3);
 }
 
 .nav-menu{
@@ -37,15 +36,16 @@
 }
 
 .nav-links{
-  color:blue;
+  padding: .2rem .5rem;
+  color: var(--color3);
   text-decoration: none;
   margin-left: 1rem;
   width: 80vw;
+  font-size: 1.2rem;
 }
 
 .nav-links:hover{
-  background-color: lightgray;
-  border-radius: 4px;
+  color: var(--color4);
   transition: all 0.2s ease-out;
   text-decoration: none;
 }
