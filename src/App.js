@@ -8,7 +8,6 @@ import About from './components/about/About'
 import Work from './components/work/Work'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
-//React scroll-into-view
 
 function App() {
 
@@ -27,8 +26,6 @@ function App() {
     }
   });
 
-  const scrollToTop = () => window.scrollTo({ top: 0, behavior: "smooth"});
-
   return (
     <div className="App">
       <Hero/>
@@ -36,7 +33,7 @@ function App() {
       <About sticky={sticky}/>
       <Work/>
       <Contact/>
-      <Footer scrollToTop={scrollToTop}/>
+      <Footer/>
     </div>
   );
 }

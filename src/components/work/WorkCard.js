@@ -1,10 +1,13 @@
 import React from "react";
-import './Work.css';
+import './Work';
 
 function WorkCard(props) {
+
+  // <img src={require(`../../images/${props.url}`)} alt={props.url}></img>
+
   return (
     <div key={props.index} className="work-items">
-      <img src={require(`../../images/${props.url}`)} alt={props.url}></img>
+      <img src={process.env.PUBLIC_URL + `/images/${props.url}`}  alt={props.url} /> 
       <div className="infomask">
         <h3 className="infomask-child">
           {props.title}
