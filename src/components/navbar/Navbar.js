@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { MenuItems } from './MenuItems'
 import './Navbar.css';
+import { Link } from 'react-scroll';
 
 function Navbar(props) {
 
@@ -21,9 +22,9 @@ function Navbar(props) {
         {MenuItems.map((item, index) => {
           return(
             <li key={index}>
-              <a className={item.cName} href={item.url} >
+              <Link className={item.cName} to={item.url} smooth={true} duration={1000}>
                 {item.title}
-              </a>
+              </Link>
             </li>
           )
         })}

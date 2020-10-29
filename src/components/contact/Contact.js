@@ -3,7 +3,7 @@ import './Contact.css';
 
 function Contact() {
   return (
-    <div className="contact_container">
+    <div id="contact" className="contact_container">
             <div className="content_section">
                 <div className="text_div">
                 <h1>Contact info</h1>
@@ -25,7 +25,7 @@ function IconRow(){
                 <h4>LinkedIn</h4>
             </a>
             <a className="contact_link" href="https://github.com/sampsaisohatala">
-            <img className="icon" src={require('../../images/github.png')} alt="Contact me"/>
+            <img className="icon" src={require('./github.png')} alt="Contact me"/>
                 <h4>GitHub</h4>
             </a>
             <a className="contact_link" href="https://www.instagram.com/samppsssa/?hl=fi">

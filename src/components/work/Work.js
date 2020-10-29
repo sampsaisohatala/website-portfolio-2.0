@@ -9,7 +9,7 @@ import WorkCard from './WorkCard'
 function Work() {
   return (
     
-    <div className="work">
+    <div id="work" className="work">
       <Fade right big>
         <h2 className="heading">Work</h2>
       </Fade>

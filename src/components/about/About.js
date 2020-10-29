@@ -4,7 +4,7 @@ import './About.css';
 function About(props) {
 
   return(
-    <div className={props.sticky ? "about top-margin" : "about"}>
+    <div id="about" className={props.sticky ? "about top-margin" : "about"}>
         <h1>About</h1>
         <div className="about-sections">
             <div className="introduction">

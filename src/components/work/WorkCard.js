@@ -1,10 +1,10 @@
 import React from "react";
 import './Work.css';
 
-function Work(props) {
+function WorkCard(props) {
   return (
     <div key={props.index} className="work-items">
-      <img src={require(`../../images/${props.url}`)} alt="error"></img>
+      <img src={require(`../../images/${props.url}`)} alt={props.url}></img>
       <div className="infomask">
         <h3 className="infomask-child">
           {props.title}
@@ -19,4 +19,4 @@ function Work(props) {
   );
 }
 
-export default Work;
+export default WorkCard;
