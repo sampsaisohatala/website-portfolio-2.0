@@ -1,12 +1,6 @@
 import React from "react";
 import './Hero.css';
-
 import Particles from 'react-particles-js';
-/*
-import background from '../images/bg-space.jpg'
-import Zoom from 'react-reveal/Zoom';
-import LazyHero from 'react-lazy-hero';
-*/
 
 const paramsDesktop = {
   "particles": {
@@ -14,7 +8,7 @@ const paramsDesktop = {
       color: "#ffffff",
       distance: 170,
       enable: true,
-      opacity: 0.5,
+      opacity: 0.3,
       width: 1,
     },
     "number": {

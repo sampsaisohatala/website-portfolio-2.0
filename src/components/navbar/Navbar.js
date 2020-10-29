@@ -4,7 +4,6 @@ import { MenuItems } from './MenuItems'
 import './Navbar.css';
 
 function Navbar(props) {
-  const state = { clicked: false }
 
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -13,10 +12,8 @@ function Navbar(props) {
     setMenuOpen(!menuOpen);
   }
 
-
   return(
     <nav className={props.sticky ? "navbar-items sticky" : "navbar-items"}>
-      <h1 className="navbar-logo">Sampsa Isohätälä <i className="fab fa-react"></i></h1>
       <div className="menu-icon" onClick={handleClick}>
         <i className={menuOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
       </div>

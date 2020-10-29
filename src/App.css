@@ -3,9 +3,14 @@
   --color1: #131322;
   /*--color2: #491111;*/
   --color2: #250808;
-  --color3: #F2F4F3;
-  --color4: #d63200;
-  --color5: #08080a;
+  --color3: #F2F4F3; /* white*/
+  --color31: #d3d4d4; /* darker white*/
+  --color4: #d63200; /* highlight */
+  --color5: #08080a; /* font */
+  --color6: #18c0dd; /* call to action */
+
+  --fontHead: 'Montserrat', sans-serif;
+  --fontBody: 'Roboto', sans-serif;
 }
 *{
   padding: 0;
@@ -13,7 +18,7 @@
   box-sizing: border-box;
 }
 .App {
-  font-family: sans-serif;
+  font-family: var(--fontBody);
   text-align: center;
  /* margin-left: 3rem;
   margin-right: 3rem;*/

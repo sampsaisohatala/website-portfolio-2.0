@@ -34,7 +34,8 @@
   transition: 0.5s all ease;
 }
 .hero button:hover{
-  background-color: var(--color4);
+  background-color: var(--color6);
+  border: 1px solid var(--color6);
   transition: 0.5s all ease;
 }
 .hero button i {

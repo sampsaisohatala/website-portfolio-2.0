@@ -12,7 +12,7 @@
     justify-content: center;
     align-items: center;
     min-height: calc(100vh - 80px);
-    background: var(--color3);
+    background: var(--color31);
 }
 .about h1{
     margin-top: 100px;
@@ -60,8 +60,7 @@
     align-content: center;
     justify-content: center;
     list-style: none;
-    background-color: var(--color4);
-    border-radius: 5px;
+    background-color: var(--color6);
     margin: .7rem auto;
     padding: .5rem 0;
     color: var(--color3);

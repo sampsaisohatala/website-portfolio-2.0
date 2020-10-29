@@ -4,7 +4,7 @@ import './Work.css';
 function Work(props) {
   return (
     <div key={props.index} className="work-items">
-      <img src={require(`../images/${props.url}`)}></img>
+      <img src={require(`../../images/${props.url}`)} alt="error"></img>
       <div className="infomask">
         <h3 className="infomask-child">
           {props.title}

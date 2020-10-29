@@ -16,7 +16,7 @@ function Work() {
       <div className="work-container">
         {WorkItems.map((item, index) => {
               return(
-                <Fade bottom big>
+                <Fade bottom big key={index}>
                   <WorkCard key={index} title={item.title} url={item.url} description={item.description}/>
                 </Fade>
               )
