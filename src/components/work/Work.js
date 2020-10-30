@@ -11,12 +11,12 @@ function Work() {
     
     <div id="work" className="work">
       <Fade right big>
-        <h2 className="heading">Work</h2>
+        <h2 className="heading">WORK</h2>
       </Fade>
       <div className="work-container">
         {WorkItems.map((item, index) => {
               return(
-                <Fade bottom big key={index}>
+                <Fade key={index}>
                   <WorkCard key={index} title={item.title} url={item.url} description={item.description}/>
                 </Fade>
               )

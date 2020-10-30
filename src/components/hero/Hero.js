@@ -3,7 +3,7 @@ import './Hero.css';
 import Particles from 'react-particles-js';
 import { Link } from 'react-scroll';
 
-const paramsDesktop = {
+const params = {
   "particles": {
     "links": {
       color: "#ffffff",
@@ -13,7 +13,7 @@ const paramsDesktop = {
       width: 1,
     },
     "number": {
-      "value": 200
+      "value": 180
     },
     "size": {
       "value": 1.5
@@ -29,10 +29,11 @@ const paramsDesktop = {
   }
 }
 
-function Hero(props) {
+
+function Hero() {
   return (
     <div id="home" className="hero">
-      <Particles className="particles" params={paramsDesktop}/>
+      <Particles className="particles" params={params}/>
       <div>
         <h1>Hello! I´m <span style={{color: "#d63200"}}>Sampsa Isohätälä</span><br/> Web and game developer.</h1>
         <Link to={'work'} smooth={true} duration={1000}>

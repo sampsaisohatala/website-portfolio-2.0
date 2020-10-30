@@ -1,17 +1,23 @@
 import React from "react";
 import './Contact.css';
+import Fade from 'react-reveal/Fade';
+
 
 function Contact() {
   return (
-    <div id="contact" className="contact_container">
-            <div className="content_section">
+    <div id="contact" className="contact_container">    
+        <div className="content_section">
+            <Fade right big>
                 <div className="text_div">
-                <h1>Contact info</h1>
-                <p><span style={{fontWeight: 800, color:"red"}}>Don't be a stranger </span> just say hello. </p>
-            </div>
+                    <h1>Contact info</h1>
+                    <p><span style={{fontWeight: 800, color:"#d63200"}}>Don't be a stranger </span> just say hello. </p>
+                </div>
+            </Fade>
+            <Fade>
                 <IconRow/>
-            </div>       
-        </div>
+            </Fade>
+        </div>   
+    </div>
   );
 }
 

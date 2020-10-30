@@ -9,7 +9,6 @@ function Navbar(props) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const handleClick = () => {
-    //this.setState({ clicked: !state.clicked})
     setMenuOpen(!menuOpen);
   }
 

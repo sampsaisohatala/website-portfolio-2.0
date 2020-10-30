@@ -26,3 +26,17 @@
     transition: 0.5s ease;
     border: 1px solid var(--color5);
 }
+.footer button:active{
+    border: none;
+}
+
+@media(max-width: 900px){
+    .footer{
+        height: 10vh;
+    }
+    .footer button{
+        height: 30px;
+        width: 30px;
+        margin-bottom: 10px;
+    }
+}

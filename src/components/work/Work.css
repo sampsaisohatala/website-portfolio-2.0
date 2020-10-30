@@ -21,7 +21,6 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     width: 80vw;
-
 }
 .work-items{
     display: flex;
@@ -73,4 +72,19 @@
 .infomask button:hover{
     background: var(--color4);
     color: var(--color3);
+}
+
+@media screen and (max-width: 960px){
+    .heading{
+        font-size: 2rem;
+    }
+    .work{
+        padding: 4rem 0;
+    }
+    .work-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 90vw;
+        margin-top: 2rem;
+    }
 }
