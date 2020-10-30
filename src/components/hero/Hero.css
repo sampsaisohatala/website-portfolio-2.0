@@ -57,4 +57,7 @@
     padding: .5rem 2rem;
     transition: 0.5s all ease;
   }
+  .particles{
+    display: none;
+  }
 }
