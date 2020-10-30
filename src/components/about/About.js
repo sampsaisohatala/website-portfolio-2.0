@@ -13,7 +13,7 @@ function About(props) {
       <div className="about-sections">
       <Fade>
         <div className="introduction">
-          <h3>Who is the this guy?</h3>
+          <h3>Who is this guy?</h3>
           <img className="" src={process.env.PUBLIC_URL + `/images/sampsa.jpeg`} alt="profile"></img>
           <p>
           Software developer living in Oulu, Finland. <br/> 
