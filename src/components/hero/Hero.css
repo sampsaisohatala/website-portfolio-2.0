@@ -26,6 +26,7 @@
   user-select: none;
 }
 .hero button{
+  margin-top: 1rem;
   background: none;
   color: var(--color3);
   border: 1px solid var(--color3);
@@ -51,6 +52,9 @@
 @media screen and (max-width: 960px){
   .hero h1{
     font-size: 1.5rem;
+  }
+  .hero button i {
+    transform: rotateZ(90deg);
   }
   .hero button{
     font-size: 1rem;

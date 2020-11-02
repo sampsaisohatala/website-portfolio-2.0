@@ -1,20 +1,20 @@
 export const WorkItems = [
     {
         title: '3D Visualizer',
-        url: '3dvisualizer.png',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-
+        img: '3dvisualizer.png',
+        description: '3D Visualizer draws 5G measurements in 3D environment that helps to analyze the results and locate problems. I was one of two developers in this project. Software was made using Unity. 3D Visualizer also supports Oculus virtual reality headsets.',
+        url: 'https://www.youtube.com/watch?v=AkBXC9Wb8V8'
     },
     {
         title: 'SpiderLand',
-        url: 'spiderland.jpeg',
-        description: 'Lorem ipsum dolor sit amet, deserunt mollit anim id est laborum.'
-
+        img: 'spiderland.jpeg',
+        description: 'Personal project made with Unity. Giant spider that uses inverse kinematics for leg placements. Bird flock system that tries to simulate how birds move in flocks. Interactive environment, that includes falling trees and breakable rocks.',
+        url: 'https://youtu.be/dTaYkFLU5zw'
     },
     {
         title: 'Curve Bullet',
-        url: 'curvebullet.jpeg',
-        description: 'Lorem ipsum dolor sit amet, Lorem ipsum dolor sit amet, deserunt mollit anim id est laborum. consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
-
+        img: 'curvebullet.jpeg',
+        description: 'Mobilegame created while studying in Oulu GameLab. I was working as lead programmer. +1000 downloads.',
+        url: 'https://play.google.com/store/apps/details?id=com.HumbleHombres.CurveBullet&hl=fi'
     },
 ]

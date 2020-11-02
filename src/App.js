@@ -13,8 +13,9 @@ function App() {
 
   const [sticky, setSticky] = useState(false);
 
+  
   window.addEventListener('scroll', (event) => {
-    if(window.scrollY > window.innerHeight){
+    if(window.scrollY > window.innerHeight - 1){
       if(sticky)
         return;
       setSticky(true);
@@ -25,6 +26,7 @@ function App() {
       setSticky(false);
     }
   });
+  
 
   return (
     <div className="App">

@@ -17,7 +17,7 @@ function Work() {
         {WorkItems.map((item, index) => {
               return(
                 <Fade key={index}>
-                  <WorkCard key={index} title={item.title} url={item.url} description={item.description}/>
+                  <WorkCard key={index} title={item.title} img={item.img} description={item.description} url={item.url}/>
                 </Fade>
               )
             })}

@@ -1,7 +1,6 @@
 :root {
   
   --color1: #131322;
-  /*--color2: #491111;*/
   --color2: #250808;
   --color3: #F2F4F3; /* white*/
   --color31: #d3d4d4; /* darker white*/
@@ -20,22 +19,4 @@
 .App {
   font-family: var(--fontBody);
   text-align: center;
- /* margin-left: 3rem;
-  margin-right: 3rem;*/
 }
-
-@media(max-width: 960px){
-  .App {
-    /*margin: 0;*/
-  }
-}
-
-/*  COLORS
-
-#145BCC BLUE
-#3D6099 DARKED BLUE
-#00EAFF CYAN
-#FF7340 ORANGE
-#CC2A14 RED
-
-*/

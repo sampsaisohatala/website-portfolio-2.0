@@ -1,9 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar-items{
   width: 100%;
   z-index: 10;
   padding: 1rem 10%;  
   background: none;
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -27,14 +33,15 @@
 }
 
 .nav-links{
-  padding: .2rem 4rem .2rem 0;
+  padding: .2rem 3rem .2rem 0;
   color: var(--color3);
   text-decoration: none;
   margin-left: 1rem;
   width: 80vw;
-  font-size: 1.3rem;
+  font-size: 1rem;
   font-family: var(--fontHead);
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 .nav-links:hover{
@@ -53,16 +60,16 @@
 
 @media screen and (max-width: 960px){
   .navbar-items{
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;   
+    transition: 0.5s ease;
     position: fixed;
     top: 0;
     left: 0;
-    background: none;
-    border: none;
-    justify-content: flex-end;
-    display: none;
-  }
-  .navbar-items.sticky{
-    display: flex;
+    padding: 1rem 1rem;
   }
   .navbar-logo{
     display: none;

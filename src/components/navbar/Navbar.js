@@ -10,6 +10,7 @@ function Navbar(props) {
 
   const handleClick = () => {
     setMenuOpen(!menuOpen);
+    console.log("handleclick");
   }
 
   return(
@@ -17,11 +18,11 @@ function Navbar(props) {
       <div className="menu-icon" onClick={handleClick}>
         <i className={menuOpen ? 'fas fa-times' : 'fas fa-bars'}></i>
       </div>
-      <ul className={menuOpen ? 'nav-menu active' : 'nav-menu'}>
+      <ul className={menuOpen ? 'nav-menu active' : 'nav-menu'} >
         {MenuItems.map((item, index) => {
           return(
             <li key={index}>
-              <Link className={item.cName} to={item.url} smooth={true} duration={1000}>
+              <Link className={item.cName} to={item.url} smooth={true} duration={1000} onClick={handleClick}>
                 {item.title}
               </Link>
             </li>
