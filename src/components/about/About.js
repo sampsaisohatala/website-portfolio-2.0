@@ -3,13 +3,11 @@ import './About.css';
 import Fade from 'react-reveal/Fade';
 
 function About(props) {
-
   return(
     <div id="about" className={props.sticky ? "about top-margin" : "about"}>
       <Fade right big>
         <h1>ABOUT</h1>
       </Fade>
-      
       <div className="about-sections">
       <Fade>
         <div className="introduction">

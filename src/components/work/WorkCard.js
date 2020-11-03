@@ -1,12 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import './Work';
 
 function WorkCard(props) {
-
-  const openLink = () => {
-
-  }
-
   return (
     <div key={props.index} className="work-items">
       <img className="item-image" src={process.env.PUBLIC_URL + `/images/${props.img}`}  alt={props.url} /> 

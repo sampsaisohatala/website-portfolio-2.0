@@ -8,7 +8,6 @@ import WorkCard from './WorkCard'
 
 function Work() {
   return (
-    
     <div id="work" className="work">
       <Fade right big>
         <h2 className="heading">WORK</h2>
@@ -26,4 +25,4 @@ function Work() {
   );
 }
 
-export default Work;
+export default React.memo(Work);

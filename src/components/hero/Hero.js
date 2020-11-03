@@ -29,7 +29,6 @@ const params = {
   }
 }
 
-
 function Hero() {
   return (
     <div id="home" className="hero">
@@ -43,10 +42,9 @@ function Hero() {
         </button>
         </Link>
       </div>
-
     </div>
   );
 }
 
-export default Hero;
+export default React.memo(Hero);
 

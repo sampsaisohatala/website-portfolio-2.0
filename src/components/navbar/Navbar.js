@@ -10,7 +10,6 @@ function Navbar(props) {
 
   const handleClick = () => {
     setMenuOpen(!menuOpen);
-    console.log("handleclick");
   }
 
   return(
